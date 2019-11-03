@@ -5,10 +5,27 @@ body {
 	padding-top: 58px;
 }
 
+
+/* CUSTOMIZE NAVAR LINK
+-------------------------------------------------- */
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+
+.pagination .page-link, .table a, .card a {
+  color: #000;
+}
+
+.table a:hover, .card a:hover {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 /* TOOLS
 -------------------------------------------------- */
 .bg-black {
-	background: #111111;
+	background: #111;
 }
 
 .bd-t-black {
@@ -16,6 +33,10 @@ body {
 }
 
 .txt-white {
+	color: #fff;
+}
+
+.txt-black {
 	color: #000;
 }
 
@@ -23,6 +44,29 @@ body {
     color: #fff;
     background-color: #777bb3;
     border-color: #777bb3;
+}
+
+.title{
+  padding: 50px 0;
+  text-transform: uppercase;
+  background: url("../img/background-slide2.png");
+  background-position: top;
+}
+
+.form {
+  padding: 50px 0;
+  background: url("../img/background-slide2.png");
+}
+
+.btn-overconsulting {
+  color: #fff;
+  background-color: #4bd0d5;
+  border-color: #4bd0d5;
+}
+
+.small {
+  font-size: 10px;
+  font-style: italic;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -53,11 +97,6 @@ body {
 
 .card-columns a .card-body, .card-columns a p {
   color: #000;
-}
-
-.video{
-  padding: 50px 0;
-  background: url("../img/background-slide.png");
 }
 
 /* CUSTOMIZE THE FOOTER
