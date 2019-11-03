@@ -29,28 +29,28 @@
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Vidéo 1: Installation de PHP sur windows</td>
-                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a></td>
+                        <td><a href="video.php" class="">Vidéo 1: Installation de PHP sur windows</a></td>
+                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Vidéo 1: Installation de PHP sur windows</td>
-                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a></td>
+                        <td><a href="video.php" class="">Vidéo 1: Installation de PHP sur windows</a></td>
+                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Vidéo 1: Installation de PHP sur windows</td>
-                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a></td>
+                        <td><a href="video.php" class="">Vidéo 1: Installation de PHP sur windows</a></td>
+                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Vidéo 1: Installation de PHP sur windows</td>
-                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a></td>
+                        <td><a href="video.php" class="">Vidéo 1: Installation de PHP sur windows</a></td>
+                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Vidéo 1: Installation de PHP sur windows</td>
-                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a></td>
+                        <td><a href="video.php" class="">Vidéo 1: Installation de PHP sur windows</a></td>
+                        <td class="text-right"><a href="video.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a></td>
                     </tr>
                 </tbody>
             </table>

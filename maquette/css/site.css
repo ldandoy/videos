@@ -5,23 +5,6 @@ body {
 	padding-top: 58px;
 }
 
-
-/* CUSTOMIZE NAVAR LINK
--------------------------------------------------- */
-.navbar-nav .nav-link {
-  color: rgba(255,255,255,.5);
-}
-
-.pagination .page-link, .table a, .card a {
-  color: #000;
-}
-
-.table a:hover, .card a:hover {
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 /* TOOLS
 -------------------------------------------------- */
 .bg-black {
@@ -32,8 +15,8 @@ body {
 	border-top: 1px solid #222;
 }
 
-.txt-white {
-	color: #fff;
+.txt-white, .card a.btn.txt-white {
+	color: #fff!important;
 }
 
 .txt-black {
@@ -67,6 +50,26 @@ body {
 .small {
   font-size: 10px;
   font-style: italic;
+}
+
+/* CUSTOMIZE NAVAR LINK
+-------------------------------------------------- */
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+
+.pagination .page-link, .table a, .card a {
+  color: #000;
+}
+
+.table a:hover, .card a:hover {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a.btn {
+  color: inherit!important;
 }
 
 /* CUSTOMIZE THE CAROUSEL

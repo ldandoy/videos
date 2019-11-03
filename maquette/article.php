@@ -36,27 +36,27 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3>Articles liés</h3>
-                    <div class="card mb-4 shadow-sm txt-white">
+                    <div class="card mb-4 shadow-sm">
                         <img src="img/image-article.png" alt="video PHP 1" />
                         <div class="card-body">
                             <h5 class="card-title text-center">Article 1</h5>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="article.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-info"><i class="fa fa-thumbs-up"></i></button>
+                                    <a href="article.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-info txt-white"><i class="fa fa-thumbs-up"></i></button>
                                 </div>
                                 <small class="text-muted">2 mins</small>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-4 shadow-sm txt-white">
+                    <div class="card mb-4 shadow-sm">
                         <img src="img/image-article.png" alt="video PHP 1" />
                         <div class="card-body">
                             <h5 class="card-title text-center">Article 1</h5>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="article.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-info"><i class="fa fa-thumbs-up"></i></button>
+                                    <a href="article.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-info txt-white"><i class="fa fa-thumbs-up"></i></button>
                                 </div>
                                 <small class="text-muted">2 mins</small>
                             </div>
@@ -68,29 +68,29 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <h3>Vidéos liées</h3>
-                    <div class="card mb-4 shadow-sm txt-white">
+                    <div class="card mb-4 shadow-sm">
                         <img src="img/image-video-php.png" alt="video PHP 1" />
                         <div class="card-body">
                             <h5 class="card-title text-center">Introduction</h5>
                             <div class="d-flex justify-content-between align-items-center">  
                                 <div class="btn-group">
-                                    <a href="video.php" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-success"><i class="fa fa-thumbs-up"></i></button>
-                                    <button type="button" class="btn btn-sm btn-warning"><i class="fa fa-star-o"></i></button>
+                                    <a href="video.php" class="btn btn-sm btn-primary txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-success txt-white"><i class="fa fa-thumbs-up"></i></button>
+                                    <button type="button" class="btn btn-sm btn-warning txt-white"><i class="fa fa-star-o"></i></button>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-4 shadow-sm txt-white">
+                    <div class="card mb-4 shadow-sm">
                         <img src="img/image-video-php.png" alt="video PHP 1" />
                         <div class="card-body">
                             <h5 class="card-title text-center">Introduction</h5>
                             <div class="d-flex justify-content-between align-items-center">  
                                 <div class="btn-group">
-                                    <a href="video.php" class="btn btn-sm btn-primary"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-success"><i class="fa fa-thumbs-up"></i></button>
-                                    <button type="button" class="btn btn-sm btn-warning"><i class="fa fa-star-o"></i></button>
+                                    <a href="video.php" class="btn btn-sm btn-primary txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-success txt-white"><i class="fa fa-thumbs-up"></i></button>
+                                    <button type="button" class="btn btn-sm btn-warning txt-white"><i class="fa fa-star-o"></i></button>
                                 </div>
                                 <small class="text-muted">9 mins</small>
                             </div>

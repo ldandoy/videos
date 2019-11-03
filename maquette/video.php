@@ -86,8 +86,8 @@
                             <h5 class="card-title text-center">Article 1</h5>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="article.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-info"><i class="fa fa-thumbs-up"></i></button>
+                                    <a href="article.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-info txt-white"><i class="fa fa-thumbs-up"></i></button>
                                 </div>
                                 <small class="text-muted">2 mins</small>
                             </div>
@@ -99,8 +99,8 @@
                             <h5 class="card-title text-center">Article 1</h5>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <a href="article.php" class="btn btn-sm btn-success"><i class="fa fa-eye"></i></a>
-                                    <button type="button" class="btn btn-sm btn-info"><i class="fa fa-thumbs-up"></i></button>
+                                    <a href="article.php" class="btn btn-sm btn-success txt-white"><i class="fa fa-eye"></i></a>
+                                    <button type="button" class="btn btn-sm btn-info txt-white"><i class="fa fa-thumbs-up"></i></button>
                                 </div>
                                 <small class="text-muted">2 mins</small>
                             </div>
