@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 title text-white text-center">
+            <h1>Toutes les vidéos</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            {% for video in videos %}
+                <div class="card mb-4 shadow-sm">
+                    <img src="/img/image-video-{{ video.category.slug }}.png" alt="video PHP 1" />
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{ video.title }}</h5>
+                        <div class="d-flex justify-content-between align-items-center">  
+                            <div class="btn-group">
+                                <a href="/videos/{{ video.slug }}" class="btn btn-sm btn-primary txt-white"><i class="fa fa-eye"></i></a>
+                                <button type="button" class="btn btn-sm btn-success txt-white"><i class="fa fa-thumbs-up"></i></button>
+                                <button type="button" class="btn btn-sm btn-warning txt-white"><i class="fa fa-star-o"></i></button>
+                            </div>
+                            <small class="text-muted">{{ video.duration }}</small>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 mt-4">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+{% endblock %}

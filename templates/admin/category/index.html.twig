@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Titre{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="page-title d-flex flex-row justify-content-between">
+                    <h1 class="">Liste des catégories</h1>
+                    <div class="">
+                        <a href="" class="btn btn-sm btn-success"><i class="fa fa-plus"></i></a>
+                    </div>
+                </div>
+                <table class="table table-bordered table-hover table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th width="1%">#</th>
+                            <th>Nom</th>
+                            <th>Slug</th>
+                            <th  width="15%">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for category in categories %}
+                            <tr>
+                                <td>{{ category.id }}</td>
+                                <td>{{ category.title }}</td>
+                                <td>{{ category.slug }}</td>
+                                <td></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

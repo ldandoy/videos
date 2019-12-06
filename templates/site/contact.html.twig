@@ -1,0 +1,32 @@
+{# templates/site/contact.html.twig #}
+{% form_theme form 'bootstrap_4_layout.html.twig' %}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}VIDEOS - APPRENDRE LE PHP{% endblock %}
+
+{% block h1 %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 title text-white text-center">
+            <h1>Contact</h1>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row justify-content-around mt-5">
+        <div class="col-md-5">
+            <img src="img/handshake-2009195_1920.png" alt="" class="img-thumbnail" />
+        </div>
+        <div class="col-md-5">
+            <div class="form p-4">
+                <h3 class="text-center text-white">Envoyer un mail</h3>
+                {{ form(form) }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
