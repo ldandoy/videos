@@ -1,0 +1,26 @@
+{# templates/admin/category/new.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block title %}Titre{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="page-title d-flex flex-row justify-content-between">
+                <h1 class="">{{ video.id }} - {{ video.title }}</h1>
+                <div class="">
+                    <a href="{{ path('admin_videos_list') }}" class="btn btn-sm btn-default">Retour</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <b>ID</b>: {{ video.id }}<br />
+            <b>Titre</b>: {{ video.title }}<br />
+            <b>Slug</b>: {{ video.slug }}<br />
+        </div>
+    </div>
+</div>
+{% endblock %}
